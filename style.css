@@ -12,19 +12,26 @@ h1 {
 
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange-color {
     color: orange;
 
+
 }
 
-section {
+.flexivale-container {
     display: flex;
     margin-bottom: 100px;
 }
 
+
 .half-width {
     width: 80%;
     padding: 5%;
+
 }
 
 .half-width img {
@@ -51,4 +58,31 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experince-item {
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 40%;
+    text-align: justify;
+    border-radius: 10px;
+    border-left: 10px orange solid;
+
+}
+
+.experince {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#baby-web-devolaper {
+    border-left: 10px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
